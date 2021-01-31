@@ -1,0 +1,722 @@
+[
+	{
+		"reward": 12,
+		"uncertainty": 0.25,
+		"type": "risk",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 7,
+		"uncertainty": 0.5,
+		"type": "ambiguity",
+		"winning_color": "red"
+	},
+	{
+		"reward": 19,
+		"uncertainty": 0.5,
+		"type": "risk",
+		"winning_color": "red"
+	},
+	{
+		"reward": 31,
+		"uncertainty": 0.74,
+		"type": "ambiguity",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 44,
+		"uncertainty": 0.24,
+		"type": "ambiguity",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 7,
+		"uncertainty": 0.74,
+		"type": "ambiguity",
+		"winning_color": "red"
+	},
+	{
+		"reward": 86,
+		"uncertainty": 0.5,
+		"type": "ambiguity",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 52,
+		"uncertainty": 0.24,
+		"type": "ambiguity",
+		"winning_color": "red"
+	},
+	{
+		"reward": 5,
+		"uncertainty": 0.5,
+		"type": "ambiguity",
+		"winning_color": "red"
+	},
+	{
+		"reward": 10,
+		"uncertainty": 0.25,
+		"type": "risk",
+		"winning_color": "red"
+	},
+	{
+		"reward": 12,
+		"uncertainty": 0.74,
+		"type": "ambiguity",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 86,
+		"uncertainty": 0.25,
+		"type": "risk",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 10,
+		"uncertainty": 0.5,
+		"type": "ambiguity",
+		"winning_color": "red"
+	},
+	{
+		"reward": 101,
+		"uncertainty": 0.5,
+		"type": "ambiguity",
+		"winning_color": "red"
+	},
+	{
+		"reward": 19,
+		"uncertainty": 0.75,
+		"type": "risk",
+		"winning_color": "red"
+	},
+	{
+		"reward": 27,
+		"uncertainty": 0.75,
+		"type": "risk",
+		"winning_color": "red"
+	},
+	{
+		"reward": 23,
+		"uncertainty": 0.5,
+		"type": "ambiguity",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 16,
+		"uncertainty": 0.5,
+		"type": "risk",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 8,
+		"uncertainty": 0.5,
+		"type": "ambiguity",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 6,
+		"uncertainty": 0.5,
+		"type": "ambiguity",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 61,
+		"uncertainty": 0.75,
+		"type": "risk",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 101,
+		"uncertainty": 0.75,
+		"type": "risk",
+		"winning_color": "red"
+	},
+	{
+		"reward": 10,
+		"uncertainty": 0.5,
+		"type": "risk",
+		"winning_color": "red"
+	},
+	{
+		"reward": 6,
+		"uncertainty": 0.75,
+		"type": "risk",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 12,
+		"uncertainty": 0.75,
+		"type": "risk",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 31,
+		"uncertainty": 0.25,
+		"type": "risk",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 16,
+		"uncertainty": 0.25,
+		"type": "risk",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 37,
+		"uncertainty": 0.75,
+		"type": "risk",
+		"winning_color": "red"
+	},
+	{
+		"reward": 14,
+		"uncertainty": 0.5,
+		"type": "ambiguity",
+		"winning_color": "red"
+	},
+	{
+		"reward": 61,
+		"uncertainty": 0.5,
+		"type": "risk",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 31,
+		"uncertainty": 0.5,
+		"type": "ambiguity",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 31,
+		"uncertainty": 0.5,
+		"type": "risk",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 23,
+		"uncertainty": 0.25,
+		"type": "risk",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 120,
+		"uncertainty": 0.25,
+		"type": "risk",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 44,
+		"uncertainty": 0.5,
+		"type": "ambiguity",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 23,
+		"uncertainty": 0.75,
+		"type": "risk",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 8,
+		"uncertainty": 0.75,
+		"type": "risk",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 31,
+		"uncertainty": 0.75,
+		"type": "risk",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 7,
+		"uncertainty": 0.24,
+		"type": "ambiguity",
+		"winning_color": "red"
+	},
+	{
+		"reward": 23,
+		"uncertainty": 0.74,
+		"type": "ambiguity",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 16,
+		"uncertainty": 0.5,
+		"type": "ambiguity",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 23,
+		"uncertainty": 0.24,
+		"type": "ambiguity",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 120,
+		"uncertainty": 0.24,
+		"type": "ambiguity",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 44,
+		"uncertainty": 0.25,
+		"type": "risk",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 14,
+		"uncertainty": 0.25,
+		"type": "risk",
+		"winning_color": "red"
+	},
+	{
+		"reward": 73,
+		"uncertainty": 0.25,
+		"type": "risk",
+		"winning_color": "red"
+	},
+	{
+		"reward": 10,
+		"uncertainty": 0.75,
+		"type": "risk",
+		"winning_color": "red"
+	},
+	{
+		"reward": 16,
+		"uncertainty": 0.24,
+		"type": "ambiguity",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 8,
+		"uncertainty": 0.5,
+		"type": "risk",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 101,
+		"uncertainty": 0.5,
+		"type": "risk",
+		"winning_color": "red"
+	},
+	{
+		"reward": 5,
+		"uncertainty": 0.74,
+		"type": "ambiguity",
+		"winning_color": "red"
+	},
+	{
+		"reward": 37,
+		"uncertainty": 0.74,
+		"type": "ambiguity",
+		"winning_color": "red"
+	},
+	{
+		"reward": 120,
+		"uncertainty": 0.74,
+		"type": "ambiguity",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 27,
+		"uncertainty": 0.5,
+		"type": "risk",
+		"winning_color": "red"
+	},
+	{
+		"reward": 73,
+		"uncertainty": 0.75,
+		"type": "risk",
+		"winning_color": "red"
+	},
+	{
+		"reward": 7,
+		"uncertainty": 0.75,
+		"type": "risk",
+		"winning_color": "red"
+	},
+	{
+		"reward": 120,
+		"uncertainty": 0.5,
+		"type": "risk",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 7,
+		"uncertainty": 0.25,
+		"type": "risk",
+		"winning_color": "red"
+	},
+	{
+		"reward": 101,
+		"uncertainty": 0.25,
+		"type": "risk",
+		"winning_color": "red"
+	},
+	{
+		"reward": 27,
+		"uncertainty": 0.25,
+		"type": "risk",
+		"winning_color": "red"
+	},
+	{
+		"reward": 61,
+		"uncertainty": 0.24,
+		"type": "ambiguity",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 27,
+		"uncertainty": 0.5,
+		"type": "ambiguity",
+		"winning_color": "red"
+	},
+	{
+		"reward": 12,
+		"uncertainty": 0.24,
+		"type": "ambiguity",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 27,
+		"uncertainty": 0.24,
+		"type": "ambiguity",
+		"winning_color": "red"
+	},
+	{
+		"reward": 14,
+		"uncertainty": 0.75,
+		"type": "risk",
+		"winning_color": "red"
+	},
+	{
+		"reward": 61,
+		"uncertainty": 0.25,
+		"type": "risk",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 44,
+		"uncertainty": 0.5,
+		"type": "risk",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 10,
+		"uncertainty": 0.24,
+		"type": "ambiguity",
+		"winning_color": "red"
+	},
+	{
+		"reward": 27,
+		"uncertainty": 0.74,
+		"type": "ambiguity",
+		"winning_color": "red"
+	},
+	{
+		"reward": 6,
+		"uncertainty": 0.25,
+		"type": "risk",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 5,
+		"uncertainty": 0.25,
+		"type": "risk",
+		"winning_color": "red"
+	},
+	{
+		"reward": 8,
+		"uncertainty": 0.24,
+		"type": "ambiguity",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 6,
+		"uncertainty": 0.24,
+		"type": "ambiguity",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 61,
+		"uncertainty": 0.74,
+		"type": "ambiguity",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 31,
+		"uncertainty": 0.24,
+		"type": "ambiguity",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 44,
+		"uncertainty": 0.75,
+		"type": "risk",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 19,
+		"uncertainty": 0.24,
+		"type": "ambiguity",
+		"winning_color": "red"
+	},
+	{
+		"reward": 73,
+		"uncertainty": 0.5,
+		"type": "ambiguity",
+		"winning_color": "red"
+	},
+	{
+		"reward": 73,
+		"uncertainty": 0.24,
+		"type": "ambiguity",
+		"winning_color": "red"
+	},
+	{
+		"reward": 44,
+		"uncertainty": 0.74,
+		"type": "ambiguity",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 16,
+		"uncertainty": 0.74,
+		"type": "ambiguity",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 101,
+		"uncertainty": 0.74,
+		"type": "ambiguity",
+		"winning_color": "red"
+	},
+	{
+		"reward": 14,
+		"uncertainty": 0.24,
+		"type": "ambiguity",
+		"winning_color": "red"
+	},
+	{
+		"reward": 86,
+		"uncertainty": 0.74,
+		"type": "ambiguity",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 6,
+		"uncertainty": 0.74,
+		"type": "ambiguity",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 86,
+		"uncertainty": 0.5,
+		"type": "risk",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 23,
+		"uncertainty": 0.5,
+		"type": "risk",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 52,
+		"uncertainty": 0.5,
+		"type": "ambiguity",
+		"winning_color": "red"
+	},
+	{
+		"reward": 37,
+		"uncertainty": 0.5,
+		"type": "risk",
+		"winning_color": "red"
+	},
+	{
+		"reward": 7,
+		"uncertainty": 0.5,
+		"type": "risk",
+		"winning_color": "red"
+	},
+	{
+		"reward": 52,
+		"uncertainty": 0.75,
+		"type": "risk",
+		"winning_color": "red"
+	},
+	{
+		"reward": 86,
+		"uncertainty": 0.75,
+		"type": "risk",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 61,
+		"uncertainty": 0.5,
+		"type": "ambiguity",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 52,
+		"uncertainty": 0.5,
+		"type": "risk",
+		"winning_color": "red"
+	},
+	{
+		"reward": 37,
+		"uncertainty": 0.5,
+		"type": "ambiguity",
+		"winning_color": "red"
+	},
+	{
+		"reward": 73,
+		"uncertainty": 0.74,
+		"type": "ambiguity",
+		"winning_color": "red"
+	},
+	{
+		"reward": 16,
+		"uncertainty": 0.75,
+		"type": "risk",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 73,
+		"uncertainty": 0.5,
+		"type": "risk",
+		"winning_color": "red"
+	},
+	{
+		"reward": 10,
+		"uncertainty": 0.74,
+		"type": "ambiguity",
+		"winning_color": "red"
+	},
+	{
+		"reward": 19,
+		"uncertainty": 0.5,
+		"type": "ambiguity",
+		"winning_color": "red"
+	},
+	{
+		"reward": 120,
+		"uncertainty": 0.75,
+		"type": "risk",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 120,
+		"uncertainty": 0.5,
+		"type": "ambiguity",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 19,
+		"uncertainty": 0.25,
+		"type": "risk",
+		"winning_color": "red"
+	},
+	{
+		"reward": 101,
+		"uncertainty": 0.24,
+		"type": "ambiguity",
+		"winning_color": "red"
+	},
+	{
+		"reward": 14,
+		"uncertainty": 0.74,
+		"type": "ambiguity",
+		"winning_color": "red"
+	},
+	{
+		"reward": 86,
+		"uncertainty": 0.24,
+		"type": "ambiguity",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 37,
+		"uncertainty": 0.24,
+		"type": "ambiguity",
+		"winning_color": "red"
+	},
+	{
+		"reward": 8,
+		"uncertainty": 0.74,
+		"type": "ambiguity",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 5,
+		"uncertainty": 0.75,
+		"type": "risk",
+		"winning_color": "red"
+	},
+	{
+		"reward": 37,
+		"uncertainty": 0.25,
+		"type": "risk",
+		"winning_color": "red"
+	},
+	{
+		"reward": 14,
+		"uncertainty": 0.5,
+		"type": "risk",
+		"winning_color": "red"
+	},
+	{
+		"reward": 52,
+		"uncertainty": 0.74,
+		"type": "ambiguity",
+		"winning_color": "red"
+	},
+	{
+		"reward": 5,
+		"uncertainty": 0.5,
+		"type": "risk",
+		"winning_color": "red"
+	},
+	{
+		"reward": 52,
+		"uncertainty": 0.25,
+		"type": "risk",
+		"winning_color": "red"
+	},
+	{
+		"reward": 5,
+		"uncertainty": 0.24,
+		"type": "ambiguity",
+		"winning_color": "red"
+	},
+	{
+		"reward": 12,
+		"uncertainty": 0.5,
+		"type": "ambiguity",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 8,
+		"uncertainty": 0.25,
+		"type": "risk",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 12,
+		"uncertainty": 0.5,
+		"type": "risk",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 6,
+		"uncertainty": 0.5,
+		"type": "risk",
+		"winning_color": "blue"
+	},
+	{
+		"reward": 19,
+		"uncertainty": 0.74,
+		"type": "ambiguity",
+		"winning_color": "red"
+	}
+]

@@ -1,11 +1,11 @@
 class Bonus extends Phaser.Scene {
-	constructor() { super({ key: "Bonus" }); 
-
-	this.promptFont = { fontFamily: "Arial", fontSize: 24, color: "#000", 
-	wordWrap: { width: 700, useAdvancedWrap: true }
-}
-
-}
+	
+	
+	constructor() { 
+		super({ key: "Bonus" }); 
+		this.promptFont = { fontFamily: "Arial", fontSize: 24, color: "#000", 
+			wordWrap: { width: 700, useAdvancedWrap: true }}
+	}
 
 	create() {
 		this.keySpace = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.SPACE);
@@ -46,58 +46,67 @@ class Bonus extends Phaser.Scene {
 	drawBonus() {
 		
 		let trialsCompleted = 8;
+		
 		if (config.gameData.trials !== null) {
 			trialsCompleted = config.gameData.trials.length;
 		}
-
-		let numRandom = Phaser.Math.Between(0, (trialsCompleted-1));
 		
+		let numRandom = Phaser.Math.Between(0, (trialsCompleted-1));
 
 		if (config.gameData.trials !== null) {
-
-			// calc for each 
-
-			
+			// 1 we find a random trial
 			const rndTrial = config.gameData.trials[numRandom];
+
+			// example from testing
+			/*
+			trialNo: 3
+			setupData: {reward: 19, uncertainty: 0.5, type: "risk", winning_color: "red"}
+			userChoice: "risk"
+			*/
+
 			config.gameData.trialChosenForBonus = rndTrial;
 			config.gameData.trialChosenForBonus.trialNo = (numRandom + 1);
-
-			
-
-			this.userAction = rndTrial.userChoice;
-			this.trialMax = rndTrial.setupData.reward;
-			this.trialType = rndTrial.setupData.type;
-
-
-			
 			config.gameData.trialChosenForBonus.diceRoll = null;
 			config.gameData.trialChosenForBonus.ambiguityLevel = null;
 			config.gameData.trialChosenForBonus.ambiguityCertainty = null
 			
-			const reward = rndTrial.setupData.reward;
-			const uncertainty = rndTrial.setupData.uncertainty * 100;
-			const redOnTop = (rndTrial.setupData.winning_color === 'red') 
-				? true : false;
-
-			const diceRollTemp = Phaser.Math.Between(1, 100);
-			const diceRoll = (redOnTop === true) ? diceRollTemp : 100 - diceRollTemp;
+			this.userAction = rndTrial.userChoice;
+			this.trialMax = rndTrial.setupData.reward;
+			this.trialType = rndTrial.setupData.type;
 			
-				
-			if (rndTrial.userChoice === 'certainty') {
-				
-				return 5; // user gets 5 points converted to cents
-
+			
+			const reward = rndTrial.setupData.reward;
+			
+			// 2 - we take the 'trial_uncertainty' value (percent)
+			const uncertainty = rndTrial.setupData.uncertainty * 100;
+			// setupData: {reward: 19, uncertainty: 0.5, type: "risk", winning_color: "red"}
+			// 0.5 => 50
+			
+			// 3 - 50 / 50% change of what the winning color was (either red or blue)
+			
+			// was it red?
+			const redOnTop = (rndTrial.setupData.winning_color === 'red') ? true : false;
+			// make a random dice roll, in the example i rolled a 3
+			const diceRollTemp = Phaser.Math.Between(1, 100);
+			
+			// winning color was red, so the dice roll remains 3
+			const diceRoll = (redOnTop === true) ? diceRollTemp : 100 - diceRollTemp;
+			// if based on 50/50% chance it was not red, then
+			// the dice roll would have been 97 (i.e. 100 - 3)
+			// causing the user to player to lose the lottery...
+			
+			if (rndTrial.userChoice === 'certainty') { 
+				return 5;
 			} else {
-				
 				config.gameData.trialChosenForBonus.diceRoll = diceRoll;
 				
 				
-
+				// 4 - if we have a risk trial as per the question
 				if (rndTrial.setupData.type === 'risk') { 
 					
-					let ret =  (diceRoll <= uncertainty) ? reward : 0;
-
-					return ret;
+					// 5 - if the random roll < uncertainty: give reward
+					return (diceRoll <= uncertainty) ? reward : 0;
+				
 				
 				} else { 
 					
